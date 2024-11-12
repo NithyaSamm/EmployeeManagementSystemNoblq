@@ -125,4 +125,12 @@ The project is organized into the following folders:
 ### Setting Up the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/EmployeeManagementSystem.git
+    git clone https://github.com/your-repo/EmployeeManagementSystem.git
+2.Navigate to the project directory:
+    cd EmployeeManagementSystem
+3.Set up the database by Running Entity Framework migrations:
+    dotnet ef database update
+4.Run the application:
+    dotnet run
+
+
