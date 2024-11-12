@@ -2,13 +2,13 @@
 
 ## Overview
 
-The **Employee Management System (EMS)** is a comprehensive application designed to manage employee-related information within an organization. It supports CRUD (Create, Read, Update, Delete) operations on employee data and includes several key modules such as employee management, department assignments, and reporting.
+The **Employee Management System (EMS)** is a comprehensive application designed to manage employee-related information within an organization. It supports CRUD (Create, Read, Update, Delete) operations on employee data and includes several key modules such as employee management, Role assignments, and Leave request and Attendance.
 
 The system follows best practices in software architecture, including the use of various design patterns such as Singleton, Factory, Strategy, and Repository. The application is built using .NET 8 for the backend and follows a layered architecture to separate concerns between different modules.
 
 ## Features
 
-- **CRUD Operations for Employees**: Create, update, view, and delete employee details.
+- **CRUD Operations for Employees**: Create, update, view, and delete employee details as well as leave request and attendance.
 - **Pattern-Based Architecture**: Implements design patterns like Factory, Singleton, Strategy, Repository.
 - **Database Management**: Includes migrations for schema updates.
 - **Logging and Validation**: Integrated with validation services and custom logging mechanisms.
@@ -120,7 +120,7 @@ The project is organized into the following folders:
 
 ### Prerequisites
 - .NET 6.0 or higher
-- SQL Server
+- PostgreSQL Server
 
 ### Setting Up the Project
 1. Clone the repository:
