@@ -9,7 +9,6 @@ The system follows best practices in software architecture, including the use of
 ## Features
 
 - **CRUD Operations for Employees**: Create, update, view, and delete employee details.
-- **Department Management**: Associate employees with departments.
 - **Pattern-Based Architecture**: Implements design patterns like Factory, Singleton, Strategy, Repository.
 - **Database Management**: Includes migrations for schema updates.
 - **Logging and Validation**: Integrated with validation services and custom logging mechanisms.
@@ -17,7 +16,7 @@ The system follows best practices in software architecture, including the use of
 ## Technology Stack
 
 - **Backend**: .NET 8, C#
-- **Database**: SQL Server (or any preferred database using EF Core)
+- **Database**: PostgreSQL Server (or any preferred database using EF Core)
 - **Design Patterns**:
     - Factory Pattern
     - Singleton Pattern
