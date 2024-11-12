@@ -25,7 +25,6 @@ The system follows best practices in software architecture, including the use of
     - Repository Pattern
 - **Frameworks/Libraries**:
     - Entity Framework Core
-    - Dapper for data access (optional)
     - AutoMapper for object-to-object mapping
     - FluentValidation for validation
 - **Testing**: xUnit for unit testing, Moq for mocking dependencies
