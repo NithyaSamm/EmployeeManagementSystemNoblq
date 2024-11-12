@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NithyaSammandhar\\Desktop\\Employee\\Backup-Employee management system\\EmployeeManagementSystemWithvalidator\\Employee System\\Employee System.csproj": {}
+    "C:\\Users\\NithyaSammandhar\\Desktop\\EmployeeManagementSystem\\EmployeeManagementSystemNoblq\\Employee System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NithyaSammandhar\\Desktop\\Employee\\Backup-Employee management system\\EmployeeManagementSystemWithvalidator\\Employee System\\Employee System.csproj": {
+    "C:\\Users\\NithyaSammandhar\\Desktop\\EmployeeManagementSystem\\EmployeeManagementSystemNoblq\\Employee System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NithyaSammandhar\\Desktop\\Employee\\Backup-Employee management system\\EmployeeManagementSystemWithvalidator\\Employee System\\Employee System.csproj",
+        "projectUniqueName": "C:\\Users\\NithyaSammandhar\\Desktop\\EmployeeManagementSystem\\EmployeeManagementSystemNoblq\\Employee System.csproj",
         "projectName": "Employee System",
-        "projectPath": "C:\\Users\\NithyaSammandhar\\Desktop\\Employee\\Backup-Employee management system\\EmployeeManagementSystemWithvalidator\\Employee System\\Employee System.csproj",
+        "projectPath": "C:\\Users\\NithyaSammandhar\\Desktop\\EmployeeManagementSystem\\EmployeeManagementSystemNoblq\\Employee System.csproj",
         "packagesPath": "C:\\Users\\NithyaSammandhar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NithyaSammandhar\\Desktop\\Employee\\Backup-Employee management system\\EmployeeManagementSystemWithvalidator\\Employee System\\obj\\",
+        "outputPath": "C:\\Users\\NithyaSammandhar\\Desktop\\EmployeeManagementSystem\\EmployeeManagementSystemNoblq\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -83,6 +83,10 @@
             "NLog": {
               "target": "Package",
               "version": "[5.3.4, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.14, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

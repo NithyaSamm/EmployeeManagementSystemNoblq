@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BnU5MUCB5ns=",
+  "dgSpecHash": "Ai/Fq71VTe4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\NithyaSammandhar\\Desktop\\Employee\\Backup-Employee management system\\EmployeeManagementSystemWithvalidator\\Employee System\\Employee System.csproj",
+  "projectFilePath": "C:\\Users\\NithyaSammandhar\\Desktop\\EmployeeManagementSystem\\EmployeeManagementSystemNoblq\\Employee System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NithyaSammandhar\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\NithyaSammandhar\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
@@ -57,6 +57,8 @@
     "C:\\Users\\NithyaSammandhar\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\NithyaSammandhar\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\NithyaSammandhar\\.nuget\\packages\\nlog\\5.3.4\\nlog.5.3.4.nupkg.sha512",
+    "C:\\Users\\NithyaSammandhar\\.nuget\\packages\\nlog.extensions.logging\\5.3.13\\nlog.extensions.logging.5.3.13.nupkg.sha512",
+    "C:\\Users\\NithyaSammandhar\\.nuget\\packages\\nlog.web.aspnetcore\\5.3.14\\nlog.web.aspnetcore.5.3.14.nupkg.sha512",
     "C:\\Users\\NithyaSammandhar\\.nuget\\packages\\npgsql\\8.0.5\\npgsql.8.0.5.nupkg.sha512",
     "C:\\Users\\NithyaSammandhar\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.10\\npgsql.entityframeworkcore.postgresql.8.0.10.nupkg.sha512",
     "C:\\Users\\NithyaSammandhar\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",

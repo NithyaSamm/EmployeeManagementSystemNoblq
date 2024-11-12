@@ -1,0 +1,2 @@
+2024-11-12 21:58:05.9831 INFO Application is starting up 
+2024-11-12 21:58:36.3109 INFO User logged in successfully: nithya@gmail.com 

@@ -20,7 +20,7 @@ namespace Employee_System.Services
         {
             _unitOfWork = unitOfWork;
             _logger = LoggerService.Instance;
-            _cacheService = EmployeeCacheService.Instance; // Singleton Cache service
+            _cacheService = EmployeeCacheService.Instance; 
         }
 
         public async Task<IEnumerable<Employee>> GetAllEmployeesAsync()
@@ -49,8 +49,12 @@ namespace Employee_System.Services
                 }
 
                 // If not found in cache, fetch from DB
-                var employee = await _unitOfWork.Employees.GetByIdAsync(id);
+                //var employee = await _unitOfWork.Employees.GetByIdAsync(id);
                 
+                var employee = await _unitOfWork.Employees.GetEmployeeWithDetailsUsingJoinAsync(id);
+
+
+
                 if (employee != null)
                 {
                     // Cache the fetched employee

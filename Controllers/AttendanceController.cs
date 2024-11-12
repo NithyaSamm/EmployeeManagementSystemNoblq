@@ -96,30 +96,6 @@ namespace Employee_System.Controllers
             }
         }
 
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> UpdateAttendanceAsync(int id, [FromBody] AttendanceDTO attendanceDto)
-        //{
-        //    try
-        //    {
-        //        if (id != attendanceDto.AttendanceId)
-        //        {
-        //            _logger.Warn("ID mismatch between route and body data.");
-        //            return BadRequest();
-        //        }
-
-        //        var attendance = _mapper.Map<Attendance>(attendanceDto);
-        //        await _attendanceService.UpdateAttendanceAsync(attendance);
-
-        //        _logger.Info($"Attendance record with ID: {id} updated.");
-        //        return NoContent();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        _logger.Error($"An error occurred while updating attendance record with ID: {id}", ex);
-        //        return StatusCode(500, "Internal server error.");
-        //    }
-        //}
-
         [Authorize(Roles = "Admin,HR")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAttendanceAsync(int id)

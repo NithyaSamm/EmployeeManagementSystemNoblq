@@ -1,5 +1,5 @@
 ﻿using Employee_System.Models;
-using Employee_System.Logging;  // Add namespace for LoggerService
+using Employee_System.Logging;  
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;

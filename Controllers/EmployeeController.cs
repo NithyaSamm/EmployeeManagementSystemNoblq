@@ -7,13 +7,12 @@ using Employee_System.Models;
 using Employee_System.Services;
 using Employee_System.Services.Interface;
 using Microsoft.AspNetCore.Authorization;
-using Employee_System.Logging;  // Add the namespace for NLogSingleton
+using Employee_System.Logging; 
 using NLog;
 
 namespace Employee_System.Controllers
 {
     //[Authorize(Roles = "Admin,HR,Employee")]
-    //[Authorize(Roles = "Admin")]
     [ApiController]
     [Route("api/[controller]")]
     public class EmployeeController : ControllerBase
@@ -54,7 +53,7 @@ namespace Employee_System.Controllers
                 return NotFound();
             }
 
-            var employeeDTO = _mapper.Map<EmployeeDTO>(employee);
+            var employeeDTO = _mapper.Map<GetByIdEmployeeDTO>(employee);
             return Ok(employeeDTO);
         }
 

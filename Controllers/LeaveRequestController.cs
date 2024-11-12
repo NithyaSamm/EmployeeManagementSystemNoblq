@@ -4,7 +4,7 @@ using Employee_System.Models;
 using Employee_System.Services.Interface;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;  // Ensure to import the right logging namespace
+using Microsoft.Extensions.Logging;  
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -16,13 +16,12 @@ namespace Employee_System.Controllers
     {
         private readonly ILeaveRequestService _leaveRequestService;
         private readonly IMapper _mapper;
-        private readonly ILogger<LeaveRequestController> _logger;  // Inject ILogger<LeaveRequestController>
-
+        private readonly ILogger<LeaveRequestController> _logger;  
         public LeaveRequestController(ILeaveRequestService leaveRequestService, IMapper mapper, ILogger<LeaveRequestController> logger)
         {
             _leaveRequestService = leaveRequestService;
             _mapper = mapper;
-            _logger = logger;  // Use the injected logger
+            _logger = logger;  
         }
 
         // GET: api/LeaveRequest

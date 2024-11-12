@@ -19,14 +19,14 @@ using Employee_System.Validator;
 using FluentValidation.AspNetCore;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
 using System.Text.Json.Serialization;
+using NLog;
+using NLog.Web;
 
+var logger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
+try
+{
+    logger.Info("Application is starting up");
 var builder = WebApplication.CreateBuilder(args);
-
-//builder.Services.AddControllers().AddJsonOptions(options =>
-//{
-//    // Enable ReferenceHandler.Preserve for JSON serialization to handle circular references
-//    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
-//});
 
 // Add services to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -177,5 +177,15 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-app.MapControllers(); // This line remains unchanged
+app.MapControllers();
 app.Run();
+}
+catch (Exception ex)
+{
+    logger.Error(ex, "Application stopped due to an exception");
+    throw;
+}
+finally
+{
+    LogManager.Shutdown();
+}
