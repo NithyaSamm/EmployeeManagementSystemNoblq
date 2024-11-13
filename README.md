@@ -133,6 +133,6 @@ The project is organized into the following folders:
 4.Run the application:
     dotnet run
 ### Logging
-Logging is handled using NLog. The logs are configured to output to both the console and log files, as defined in the nlog.config file.
+Logging is handled using NLog. The logs are configured in the log files, as defined in the nlog.config file.
 
 
